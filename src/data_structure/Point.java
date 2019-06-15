@@ -1,4 +1,4 @@
-package java.data_structure;
+package data_structure;
 
 /**
  * Created by Huang Rong on 2019/6/15.
