@@ -8,6 +8,11 @@ import java.util.Random;
 
 /**
  * Created by Huang Rong on 2019/6/16.
+ *
+ * Create Random Instances, each Instance have 3 Points:
+ * (px, py, pw)
+ * (qx, qy, qw)
+ * (rx, ry, yw)
  */
 public class InstanceGenerator {
     private final int MAX_LIT;
