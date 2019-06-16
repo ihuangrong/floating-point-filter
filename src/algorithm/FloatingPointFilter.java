@@ -2,6 +2,8 @@ package algorithm;
 
 import data_structure.Point;
 
+import java.util.List;
+
 /**
  * Created by Huang Rong on 2019/6/15.
  */
@@ -14,7 +16,11 @@ public class FloatingPointFilter extends OrientationAlgorithm {
      * -1 --> Clockwise(positive orientation)
      */
     @Override
-    public double orientation(Point p, Point q, Point r) {
+    public double orientation(List<Point> points) {
+        Point p = points.get(0);
+        Point q = points.get(1);
+        Point r = points.get(2);
+
         // convert arguments to double
         double pxd = Double.valueOf(p.getX());
         double pyd = Double.valueOf(p.getY());
