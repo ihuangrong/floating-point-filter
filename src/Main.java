@@ -36,8 +36,8 @@ public class Main {
      * @return
      */
     private static List<List<List<Point>>> createInstances(List<Integer> instanceSizes) {
-        final int MAX_LIT = 50;
-        final int MIN_LIT = -20;
+        final int MAX_LIT = 5;
+        final int MIN_LIT = -2;
 
         InstanceGenerator instanceGen = new InstanceGenerator(MAX_LIT, MIN_LIT, 4);
         List<List<List<Point>>> instances = new ArrayList<>();
