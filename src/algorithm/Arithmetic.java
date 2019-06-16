@@ -12,9 +12,9 @@ public class Arithmetic extends OrientationAlgorithm{
     /**
      * To find orientation of three points (p, q, r).
      * The function returns following values:
-     * 1 --> Counterclockwise(negative orientation)
+     * -1 --> Counterclockwise(negative orientation)
      * 0 --> p, q and r are collinear points
-     * -1 --> Clockwise(positive orientation)
+     * 1 --> Clockwise(positive orientation)
      */
     @Override
     public double orientation(List<Point> points) {

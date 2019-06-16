@@ -1,0 +1,42 @@
+# Automatically generated Benchmark file.
+
+### COMPACT FORMAT #### Each column is for number of instances, each row for one algorithm
+# Each entry in the matrix is a runtime in nanotimes
+# Example
+# ;NumInstances1; NumInstances1; ...
+# AlgorithmName ; TimeInNs1; TimeInNs2; ...
+
+#RESULTS:
+; 1000; 2000; 3000; 4000; 5000; 6000; 7000; 8000; 9000; 10000
+Arithmetic; 155313; 317899; 626747; 825697; 1062950; 1247839; 1359354; 1482020; 1645576; 1808161
+FloatingPointFilter; 466100; 1094464; 1387312; 1572362; 1914181; 2162746; 2415191; 2652605; 2941898; 3319110
+
+### NICER RESULTS ###
+# Benchmark of Algorithm Arithmetic:
+
+# Average Results (time in ms):
+number of instances= 1000 ; runTime : 155313 ns
+number of instances= 2000 ; runTime : 317899 ns
+number of instances= 3000 ; runTime : 626747 ns
+number of instances= 4000 ; runTime : 825697 ns
+number of instances= 5000 ; runTime : 1062950 ns
+number of instances= 6000 ; runTime : 1247839 ns
+number of instances= 7000 ; runTime : 1359354 ns
+number of instances= 8000 ; runTime : 1482020 ns
+number of instances= 9000 ; runTime : 1645576 ns
+number of instances= 10000 ; runTime : 1808161 ns
+
+# Benchmark of Algorithm FloatingPointFilter:
+
+# Average Results (time in ms):
+number of instances= 1000 ; runTime : 466100 ns
+number of instances= 2000 ; runTime : 1094464 ns
+number of instances= 3000 ; runTime : 1387312 ns
+number of instances= 4000 ; runTime : 1572362 ns
+number of instances= 5000 ; runTime : 1914181 ns
+number of instances= 6000 ; runTime : 2162746 ns
+number of instances= 7000 ; runTime : 2415191 ns
+number of instances= 8000 ; runTime : 2652605 ns
+number of instances= 9000 ; runTime : 2941898 ns
+number of instances= 10000 ; runTime : 3319110 ns
+

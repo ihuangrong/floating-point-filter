@@ -19,11 +19,11 @@ public class ArithmeticTest {
     void initializeData() {
         points.add(new Point(0, 0, 2));
         points.add(new Point(4, 4, 1));
-        points.add(new Point(3, 1, 1));
+        points.add(new Point(2, 2, 2));
     }
 
     @Test
     void test() {
-        assertEquals(-1.0, new Arithmetic().orientation(points));
+        assertEquals(0.0, new Arithmetic().orientation(points));
     }
 }
